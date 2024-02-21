@@ -1,0 +1,47 @@
+/* components/Organismos/Login.css */
+.login-container {
+  position: absolute;
+  top: 38%; /* Centrar verticalmente */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translate(-95%, -50%); /* Centrar absolutamente */
+  padding: 2em; /* Ajustar el relleno según sea necesario */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: black; /* Agregar fondo negro */
+  color: white; /* Color de texto blanco */
+  align-items: center; /* Centra verticalmente los elementos */
+
+ 
+}
+
+body {
+  background-color: black; /* Fondo negro para toda la página */
+  color: white; /* Color de texto blanco para mejor legibilidad */
+}
+
+/* styles.css */
+.white-bar {
+  position: absolute;
+  top: 0;
+  left: 0; /* Coloca la franja en el lado izquierdo */
+  width: 65px; /* Ancho de la franja */
+  height: 100%; /* Altura de la franja */
+  background-color: white; /* Color de fondo blanco */
+
+}
+
+h1 {
+  font-size: 8em; /* Tamaño grande de fuente para el título principal */
+  margin-bottom: 0.5em; /* Ajusta el margen inferior según sea necesario */
+  text-align: right; /* Alinea el texto hacia la derecha */
+
+}
+
+.white-bar img {
+  max-width: 50px; /* Establece el ancho máximo de las imágenes */
+  max-height: 30px; /* Establece la altura máxima de las imágenes */
+  margin: 0 20px; /* Agrega un margen horizontal entre las imágenes */
+  top: 10px; /* Baja las imágenes 10px desde su posición original */
+
+
+}

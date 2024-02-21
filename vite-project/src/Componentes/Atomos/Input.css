@@ -1,0 +1,13 @@
+/* components/Atomos/Input.css */
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  padding: 10px; /* Aumentar el padding para hacer los inputs más grandes */
+  background: linear-gradient(to right, #3bcad7, #185357);
+  color: black; /* Color negro para el texto */
+  border-radius: 4px;
+  width: 150%;
+  box-sizing: border-box;
+}

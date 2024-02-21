@@ -1,0 +1,20 @@
+/* components/Atomos/FacebookLoginButton.css */
+.facebook-login-button {
+    width: 90%;
+    margin-bottom: 20px; /* Aumenta el margen inferior para dar más espacio */
+    padding: 10px 20px;
+    background-color: #fefefe;
+    color: rgb(3, 3, 3);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+
+  }
+  
+  .facebook-login-button img {
+    width: 20px;
+    margin-right: 8px;
+  }
+  
+  

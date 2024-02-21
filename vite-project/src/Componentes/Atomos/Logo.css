@@ -1,0 +1,35 @@
+
+/* components/Atomos/Logo.css */
+.logo-container {
+    position: absolute;
+    top: 150px;
+    right: -650px;
+    overflow: hidden; /* Oculta el contenido que se sale del contenedor */
+
+  }
+  
+  .logo-main {
+    width: 600px;
+    height: 100%;
+    animation: rotateMain 5s linear infinite; /* Aplica la animación a la imagen principal */
+    transform-origin: center center; /* Establece el punto de transformación en el centro de la imagen */
+
+  }
+  
+  @keyframes rotateMain {
+    from {
+      transform: rotate(0deg); /* Define la rotación inicial */
+    }
+    to {
+      transform: rotate(360deg); /* Define la rotación final */
+    }
+  }
+
+  
+  .logo-icon {
+    width: 150px; /* Ajusta el tamaño del ícono según sea necesario */
+    position: absolute; /* Establece la posición absoluta para el ícono */
+    top: 495px; /* Ajusta la posición vertical del ícono hacia arriba */
+    right: 10px; /* Ajusta la posición horizontal del ícono hacia la derecha */
+  }
+  
